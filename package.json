@@ -1,0 +1,16 @@
+{
+  "name": "fifa-card-generator",
+  "version": "1.0.0",
+  "description": "FIFA-style player card generator server for a BDFD Discord bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.65",
+    "express": "^4.21.2"
+  }
+}
